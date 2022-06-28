@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.leading-title {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 4em;
+}
+.subtitle{
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 2em;
+}
+.skill-container{
+    width: 100%;
+    background-color: #ddd;
+}
+
+.skills {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+
+.php {width: 80%; background-color: black;}
+
+.first-page {
+    background: black;
+}
+.second-page {
+    background-image: linear-gradient(to right bottom, #000000, #270e14, #47111b, #68121c, #881717);
+}
